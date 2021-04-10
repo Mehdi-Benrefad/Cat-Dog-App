@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F94EB662621D21700D5E88B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EB652621D21700D5E88B /* AppDelegate.swift */; };
+		4F94EB682621D21700D5E88B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EB672621D21700D5E88B /* SceneDelegate.swift */; };
+		4F94EB6A2621D21700D5E88B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EB692621D21700D5E88B /* ViewController.swift */; };
+		4F94EB6D2621D21700D5E88B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F94EB6B2621D21700D5E88B /* Main.storyboard */; };
+		4F94EB6F2621D21900D5E88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F94EB6E2621D21900D5E88B /* Assets.xcassets */; };
+		4F94EB722621D21900D5E88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F94EB702621D21900D5E88B /* LaunchScreen.storyboard */; };
+		4F94EB7D2621D21A00D5E88B /* Cat_Dog_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EB7C2621D21A00D5E88B /* Cat_Dog_AppTests.swift */; };
+		4F94EB882621D21A00D5E88B /* Cat_Dog_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EB872621D21A00D5E88B /* Cat_Dog_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F94EB792621D21A00D5E88B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F94EB5A2621D21700D5E88B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F94EB612621D21700D5E88B;
+			remoteInfo = "Cat-Dog-App";
+		};
+		4F94EB842621D21A00D5E88B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F94EB5A2621D21700D5E88B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F94EB612621D21700D5E88B;
+			remoteInfo = "Cat-Dog-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F94EB622621D21700D5E88B /* Cat-Dog-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat-Dog-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F94EB652621D21700D5E88B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F94EB672621D21700D5E88B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4F94EB692621D21700D5E88B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F94EB6C2621D21700D5E88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F94EB6E2621D21900D5E88B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F94EB712621D21900D5E88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F94EB732621D21900D5E88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F94EB782621D21A00D5E88B /* Cat-Dog-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat-Dog-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F94EB7C2621D21A00D5E88B /* Cat_Dog_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_Dog_AppTests.swift; sourceTree = "<group>"; };
+		4F94EB7E2621D21A00D5E88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F94EB832621D21A00D5E88B /* Cat-Dog-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat-Dog-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F94EB872621D21A00D5E88B /* Cat_Dog_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_Dog_AppUITests.swift; sourceTree = "<group>"; };
+		4F94EB892621D21A00D5E88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F94EB5F2621D21700D5E88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94EB752621D21A00D5E88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94EB802621D21A00D5E88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F94EB592621D21700D5E88B = {
+			isa = PBXGroup;
+			children = (
+				4F94EB642621D21700D5E88B /* Cat-Dog-App */,
+				4F94EB7B2621D21A00D5E88B /* Cat-Dog-AppTests */,
+				4F94EB862621D21A00D5E88B /* Cat-Dog-AppUITests */,
+				4F94EB632621D21700D5E88B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F94EB632621D21700D5E88B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F94EB622621D21700D5E88B /* Cat-Dog-App.app */,
+				4F94EB782621D21A00D5E88B /* Cat-Dog-AppTests.xctest */,
+				4F94EB832621D21A00D5E88B /* Cat-Dog-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F94EB642621D21700D5E88B /* Cat-Dog-App */ = {
+			isa = PBXGroup;
+			children = (
+				4F94EB652621D21700D5E88B /* AppDelegate.swift */,
+				4F94EB672621D21700D5E88B /* SceneDelegate.swift */,
+				4F94EB692621D21700D5E88B /* ViewController.swift */,
+				4F94EB6B2621D21700D5E88B /* Main.storyboard */,
+				4F94EB6E2621D21900D5E88B /* Assets.xcassets */,
+				4F94EB702621D21900D5E88B /* LaunchScreen.storyboard */,
+				4F94EB732621D21900D5E88B /* Info.plist */,
+			);
+			path = "Cat-Dog-App";
+			sourceTree = "<group>";
+		};
+		4F94EB7B2621D21A00D5E88B /* Cat-Dog-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F94EB7C2621D21A00D5E88B /* Cat_Dog_AppTests.swift */,
+				4F94EB7E2621D21A00D5E88B /* Info.plist */,
+			);
+			path = "Cat-Dog-AppTests";
+			sourceTree = "<group>";
+		};
+		4F94EB862621D21A00D5E88B /* Cat-Dog-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F94EB872621D21A00D5E88B /* Cat_Dog_AppUITests.swift */,
+				4F94EB892621D21A00D5E88B /* Info.plist */,
+			);
+			path = "Cat-Dog-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F94EB612621D21700D5E88B /* Cat-Dog-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F94EB8C2621D21A00D5E88B /* Build configuration list for PBXNativeTarget "Cat-Dog-App" */;
+			buildPhases = (
+				4F94EB5E2621D21700D5E88B /* Sources */,
+				4F94EB5F2621D21700D5E88B /* Frameworks */,
+				4F94EB602621D21700D5E88B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cat-Dog-App";
+			productName = "Cat-Dog-App";
+			productReference = 4F94EB622621D21700D5E88B /* Cat-Dog-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F94EB772621D21A00D5E88B /* Cat-Dog-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F94EB8F2621D21A00D5E88B /* Build configuration list for PBXNativeTarget "Cat-Dog-AppTests" */;
+			buildPhases = (
+				4F94EB742621D21A00D5E88B /* Sources */,
+				4F94EB752621D21A00D5E88B /* Frameworks */,
+				4F94EB762621D21A00D5E88B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F94EB7A2621D21A00D5E88B /* PBXTargetDependency */,
+			);
+			name = "Cat-Dog-AppTests";
+			productName = "Cat-Dog-AppTests";
+			productReference = 4F94EB782621D21A00D5E88B /* Cat-Dog-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F94EB822621D21A00D5E88B /* Cat-Dog-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F94EB922621D21A00D5E88B /* Build configuration list for PBXNativeTarget "Cat-Dog-AppUITests" */;
+			buildPhases = (
+				4F94EB7F2621D21A00D5E88B /* Sources */,
+				4F94EB802621D21A00D5E88B /* Frameworks */,
+				4F94EB812621D21A00D5E88B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F94EB852621D21A00D5E88B /* PBXTargetDependency */,
+			);
+			name = "Cat-Dog-AppUITests";
+			productName = "Cat-Dog-AppUITests";
+			productReference = 4F94EB832621D21A00D5E88B /* Cat-Dog-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F94EB5A2621D21700D5E88B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mehdi Benrefad";
+				TargetAttributes = {
+					4F94EB612621D21700D5E88B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					4F94EB772621D21A00D5E88B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 4F94EB612621D21700D5E88B;
+					};
+					4F94EB822621D21A00D5E88B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 4F94EB612621D21700D5E88B;
+					};
+				};
+			};
+			buildConfigurationList = 4F94EB5D2621D21700D5E88B /* Build configuration list for PBXProject "Cat-Dog-App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F94EB592621D21700D5E88B;
+			productRefGroup = 4F94EB632621D21700D5E88B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F94EB612621D21700D5E88B /* Cat-Dog-App */,
+				4F94EB772621D21A00D5E88B /* Cat-Dog-AppTests */,
+				4F94EB822621D21A00D5E88B /* Cat-Dog-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F94EB602621D21700D5E88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F94EB722621D21900D5E88B /* LaunchScreen.storyboard in Resources */,
+				4F94EB6F2621D21900D5E88B /* Assets.xcassets in Resources */,
+				4F94EB6D2621D21700D5E88B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94EB762621D21A00D5E88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94EB812621D21A00D5E88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F94EB5E2621D21700D5E88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F94EB6A2621D21700D5E88B /* ViewController.swift in Sources */,
+				4F94EB662621D21700D5E88B /* AppDelegate.swift in Sources */,
+				4F94EB682621D21700D5E88B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94EB742621D21A00D5E88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F94EB7D2621D21A00D5E88B /* Cat_Dog_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94EB7F2621D21A00D5E88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F94EB882621D21A00D5E88B /* Cat_Dog_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F94EB7A2621D21A00D5E88B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F94EB612621D21700D5E88B /* Cat-Dog-App */;
+			targetProxy = 4F94EB792621D21A00D5E88B /* PBXContainerItemProxy */;
+		};
+		4F94EB852621D21A00D5E88B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F94EB612621D21700D5E88B /* Cat-Dog-App */;
+			targetProxy = 4F94EB842621D21A00D5E88B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F94EB6B2621D21700D5E88B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F94EB6C2621D21700D5E88B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F94EB702621D21900D5E88B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F94EB712621D21900D5E88B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F94EB8A2621D21A00D5E88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F94EB8B2621D21A00D5E88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F94EB8D2621D21A00D5E88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cat-Dog-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mehdi-Benrefad.Cat-Dog-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F94EB8E2621D21A00D5E88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cat-Dog-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mehdi-Benrefad.Cat-Dog-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F94EB902621D21A00D5E88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cat-Dog-AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mehdi-Benrefad.Cat-Dog-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat-Dog-App.app/Cat-Dog-App";
+			};
+			name = Debug;
+		};
+		4F94EB912621D21A00D5E88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cat-Dog-AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mehdi-Benrefad.Cat-Dog-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat-Dog-App.app/Cat-Dog-App";
+			};
+			name = Release;
+		};
+		4F94EB932621D21A00D5E88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cat-Dog-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mehdi-Benrefad.Cat-Dog-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cat-Dog-App";
+			};
+			name = Debug;
+		};
+		4F94EB942621D21A00D5E88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cat-Dog-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mehdi-Benrefad.Cat-Dog-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cat-Dog-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F94EB5D2621D21700D5E88B /* Build configuration list for PBXProject "Cat-Dog-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F94EB8A2621D21A00D5E88B /* Debug */,
+				4F94EB8B2621D21A00D5E88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F94EB8C2621D21A00D5E88B /* Build configuration list for PBXNativeTarget "Cat-Dog-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F94EB8D2621D21A00D5E88B /* Debug */,
+				4F94EB8E2621D21A00D5E88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F94EB8F2621D21A00D5E88B /* Build configuration list for PBXNativeTarget "Cat-Dog-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F94EB902621D21A00D5E88B /* Debug */,
+				4F94EB912621D21A00D5E88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F94EB922621D21A00D5E88B /* Build configuration list for PBXNativeTarget "Cat-Dog-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F94EB932621D21A00D5E88B /* Debug */,
+				4F94EB942621D21A00D5E88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F94EB5A2621D21700D5E88B /* Project object */;
+}
