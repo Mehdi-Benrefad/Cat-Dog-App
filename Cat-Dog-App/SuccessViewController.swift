@@ -13,13 +13,18 @@ class SuccessViewController: UIViewController {
     
     @IBOutlet weak var dismissoutlet: UIButton!
 
+    @IBOutlet weak var backToWwelcomePage: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        dismissoutlet.layer.cornerRadius=25.0}
-    
+        dismissoutlet.layer.cornerRadius=25.0
+        backToWwelcomePage.layer.cornerRadius=25.0
+        
+    }
+        
     @IBAction func dismiss(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }

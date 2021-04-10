@@ -10,11 +10,13 @@ import UIKit
 
 class FormViewController: UIViewController {
 
+    @IBOutlet weak var valider: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
+        valider.layer.cornerRadius=25.0    }
     
 
     /*

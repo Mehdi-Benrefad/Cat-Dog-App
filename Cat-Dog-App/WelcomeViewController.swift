@@ -10,12 +10,14 @@ import UIKit
 
 class WelcomeViewController: UIViewController {
 
+    @IBOutlet weak var start: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        start.layer.cornerRadius=25.0
     }
-    
     @IBAction func unwindToWelcome(segue:UIStoryboardSegue) { }
 
     /*
