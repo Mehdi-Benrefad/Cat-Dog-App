@@ -9,12 +9,26 @@
 /* Begin PBXBuildFile section */
 		4F94EB662621D21700D5E88B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EB652621D21700D5E88B /* AppDelegate.swift */; };
 		4F94EB682621D21700D5E88B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EB672621D21700D5E88B /* SceneDelegate.swift */; };
-		4F94EB6A2621D21700D5E88B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EB692621D21700D5E88B /* ViewController.swift */; };
 		4F94EB6D2621D21700D5E88B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F94EB6B2621D21700D5E88B /* Main.storyboard */; };
 		4F94EB6F2621D21900D5E88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F94EB6E2621D21900D5E88B /* Assets.xcassets */; };
 		4F94EB722621D21900D5E88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F94EB702621D21900D5E88B /* LaunchScreen.storyboard */; };
 		4F94EB7D2621D21A00D5E88B /* Cat_Dog_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EB7C2621D21A00D5E88B /* Cat_Dog_AppTests.swift */; };
 		4F94EB882621D21A00D5E88B /* Cat_Dog_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EB872621D21A00D5E88B /* Cat_Dog_AppUITests.swift */; };
+		4F94EB9B2621D33300D5E88B /* Races.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EB9A2621D33300D5E88B /* Races.swift */; };
+		4F94EB9C2621D33300D5E88B /* Races.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EB9A2621D33300D5E88B /* Races.swift */; };
+		4F94EB9D2621D33300D5E88B /* Races.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EB9A2621D33300D5E88B /* Races.swift */; };
+		4F94EB9F2621E0BD00D5E88B /* Balham.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F94EB9E2621E0BD00D5E88B /* Balham.otf */; };
+		4F94EBA02621E0BD00D5E88B /* Balham.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F94EB9E2621E0BD00D5E88B /* Balham.otf */; };
+		4F94EBA12621E0BD00D5E88B /* Balham.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F94EB9E2621E0BD00D5E88B /* Balham.otf */; };
+		4F94EBA32621FE3400D5E88B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EBA22621FE3400D5E88B /* WelcomeViewController.swift */; };
+		4F94EBA42621FE3400D5E88B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EBA22621FE3400D5E88B /* WelcomeViewController.swift */; };
+		4F94EBA52621FE3400D5E88B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EBA22621FE3400D5E88B /* WelcomeViewController.swift */; };
+		4F94EBA7262208AF00D5E88B /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EBA6262208AF00D5E88B /* FormViewController.swift */; };
+		4F94EBA8262208AF00D5E88B /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EBA6262208AF00D5E88B /* FormViewController.swift */; };
+		4F94EBA9262208B000D5E88B /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EBA6262208AF00D5E88B /* FormViewController.swift */; };
+		4F94EBAB26220C6400D5E88B /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EBAA26220C6400D5E88B /* SuccessViewController.swift */; };
+		4F94EBAC26220C6400D5E88B /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EBAA26220C6400D5E88B /* SuccessViewController.swift */; };
+		4F94EBAD26220C6400D5E88B /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EBAA26220C6400D5E88B /* SuccessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +52,6 @@
 		4F94EB622621D21700D5E88B /* Cat-Dog-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat-Dog-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F94EB652621D21700D5E88B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F94EB672621D21700D5E88B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F94EB692621D21700D5E88B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F94EB6C2621D21700D5E88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F94EB6E2621D21900D5E88B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F94EB712621D21900D5E88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,11 @@
 		4F94EB832621D21A00D5E88B /* Cat-Dog-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat-Dog-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F94EB872621D21A00D5E88B /* Cat_Dog_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_Dog_AppUITests.swift; sourceTree = "<group>"; };
 		4F94EB892621D21A00D5E88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F94EB9A2621D33300D5E88B /* Races.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Races.swift; path = "../../../App Assets/Races.swift"; sourceTree = "<group>"; };
+		4F94EB9E2621E0BD00D5E88B /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Balham.otf; path = ../../../Balham.otf; sourceTree = "<group>"; };
+		4F94EBA22621FE3400D5E88B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4F94EBA6262208AF00D5E88B /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		4F94EBAA26220C6400D5E88B /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +117,12 @@
 		4F94EB642621D21700D5E88B /* Cat-Dog-App */ = {
 			isa = PBXGroup;
 			children = (
+				4F94EB9E2621E0BD00D5E88B /* Balham.otf */,
 				4F94EB652621D21700D5E88B /* AppDelegate.swift */,
 				4F94EB672621D21700D5E88B /* SceneDelegate.swift */,
-				4F94EB692621D21700D5E88B /* ViewController.swift */,
-				4F94EB6B2621D21700D5E88B /* Main.storyboard */,
-				4F94EB6E2621D21900D5E88B /* Assets.xcassets */,
-				4F94EB702621D21900D5E88B /* LaunchScreen.storyboard */,
+				4F94EB972621D2CB00D5E88B /* View */,
+				4F94EB982621D2E800D5E88B /* Controller */,
+				4F94EB992621D2FF00D5E88B /* Model */,
 				4F94EB732621D21900D5E88B /* Info.plist */,
 			);
 			path = "Cat-Dog-App";
@@ -126,6 +144,34 @@
 				4F94EB892621D21A00D5E88B /* Info.plist */,
 			);
 			path = "Cat-Dog-AppUITests";
+			sourceTree = "<group>";
+		};
+		4F94EB972621D2CB00D5E88B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F94EB6B2621D21700D5E88B /* Main.storyboard */,
+				4F94EB702621D21900D5E88B /* LaunchScreen.storyboard */,
+				4F94EB6E2621D21900D5E88B /* Assets.xcassets */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4F94EB982621D2E800D5E88B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4F94EBA22621FE3400D5E88B /* WelcomeViewController.swift */,
+				4F94EBA6262208AF00D5E88B /* FormViewController.swift */,
+				4F94EBAA26220C6400D5E88B /* SuccessViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4F94EB992621D2FF00D5E88B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F94EB9A2621D33300D5E88B /* Races.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +280,7 @@
 			files = (
 				4F94EB722621D21900D5E88B /* LaunchScreen.storyboard in Resources */,
 				4F94EB6F2621D21900D5E88B /* Assets.xcassets in Resources */,
+				4F94EB9F2621E0BD00D5E88B /* Balham.otf in Resources */,
 				4F94EB6D2621D21700D5E88B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F94EBA02621E0BD00D5E88B /* Balham.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F94EBA12621E0BD00D5E88B /* Balham.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F94EB6A2621D21700D5E88B /* ViewController.swift in Sources */,
+				4F94EB9B2621D33300D5E88B /* Races.swift in Sources */,
+				4F94EBA32621FE3400D5E88B /* WelcomeViewController.swift in Sources */,
 				4F94EB662621D21700D5E88B /* AppDelegate.swift in Sources */,
+				4F94EBA7262208AF00D5E88B /* FormViewController.swift in Sources */,
+				4F94EBAB26220C6400D5E88B /* SuccessViewController.swift in Sources */,
 				4F94EB682621D21700D5E88B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +321,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F94EBA42621FE3400D5E88B /* WelcomeViewController.swift in Sources */,
+				4F94EB9C2621D33300D5E88B /* Races.swift in Sources */,
+				4F94EBA8262208AF00D5E88B /* FormViewController.swift in Sources */,
+				4F94EBAC26220C6400D5E88B /* SuccessViewController.swift in Sources */,
 				4F94EB7D2621D21A00D5E88B /* Cat_Dog_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +333,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F94EBA52621FE3400D5E88B /* WelcomeViewController.swift in Sources */,
+				4F94EB9D2621D33300D5E88B /* Races.swift in Sources */,
+				4F94EBA9262208B000D5E88B /* FormViewController.swift in Sources */,
+				4F94EBAD26220C6400D5E88B /* SuccessViewController.swift in Sources */,
 				4F94EB882621D21A00D5E88B /* Cat_Dog_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
