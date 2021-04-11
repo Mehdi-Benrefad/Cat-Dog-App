@@ -145,7 +145,7 @@
             </objects>
             <point key="canvasLocation" x="-7778" y="483"/>
         </scene>
-        <!--Cat Form View Controller-->
+        <!--Register-->
         <scene sceneID="meh-B1-b4f">
             <objects>
                 <viewController id="nAO-Vh-SWe" customClass="CatFormViewController" customModule="Cat_Dog_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -169,7 +169,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="two-3Y-qDn"/>
                     </view>
-                    <navigationItem key="navigationItem" id="E59-s4-P46"/>
+                    <navigationItem key="navigationItem" title="Register" id="E59-s4-P46"/>
                     <connections>
                         <outlet property="valider" destination="R2h-1g-f5u" id="49Z-Uu-Lat"/>
                     </connections>
