@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F2A6CE926238D2F0060A8FC /* animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A6CE826238D2F0060A8FC /* animal.swift */; };
+		4F2A6CEA26238D2F0060A8FC /* animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A6CE826238D2F0060A8FC /* animal.swift */; };
+		4F2A6CEB26238D2F0060A8FC /* animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A6CE826238D2F0060A8FC /* animal.swift */; };
 		4F94EB662621D21700D5E88B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EB652621D21700D5E88B /* AppDelegate.swift */; };
 		4F94EB682621D21700D5E88B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94EB672621D21700D5E88B /* SceneDelegate.swift */; };
 		4F94EB6D2621D21700D5E88B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F94EB6B2621D21700D5E88B /* Main.storyboard */; };
@@ -64,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F2A6CE826238D2F0060A8FC /* animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animal.swift; sourceTree = "<group>"; };
 		4F94EB622621D21700D5E88B /* Cat-Dog-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat-Dog-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F94EB652621D21700D5E88B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F94EB672621D21700D5E88B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -195,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				4F94EB9A2621D33300D5E88B /* Races.swift */,
+				4F2A6CE826238D2F0060A8FC /* animal.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -338,6 +343,7 @@
 				4F94EBA32621FE3400D5E88B /* WelcomeViewController.swift in Sources */,
 				4F94EB662621D21700D5E88B /* AppDelegate.swift in Sources */,
 				4F94EBA7262208AF00D5E88B /* FormViewController.swift in Sources */,
+				4F2A6CE926238D2F0060A8FC /* animal.swift in Sources */,
 				4FDB7E852622733C00A35CE3 /* CatSuccessViewController.swift in Sources */,
 				4FDB7E8126226F2200A35CE3 /* CatFormViewController.swift in Sources */,
 				4F94EBAB26220C6400D5E88B /* SuccessViewController.swift in Sources */,
@@ -356,6 +362,7 @@
 				4F94EB9C2621D33300D5E88B /* Races.swift in Sources */,
 				4F94EBA8262208AF00D5E88B /* FormViewController.swift in Sources */,
 				4F94EBAC26220C6400D5E88B /* SuccessViewController.swift in Sources */,
+				4F2A6CEA26238D2F0060A8FC /* animal.swift in Sources */,
 				4FDB7E8226226F2200A35CE3 /* CatFormViewController.swift in Sources */,
 				4FDB7E7E26226AEA00A35CE3 /* CatWelcomeViewController.swift in Sources */,
 				4F94EBB026221AE000D5E88B /* hello.swift in Sources */,
@@ -373,6 +380,7 @@
 				4F94EB9D2621D33300D5E88B /* Races.swift in Sources */,
 				4F94EBA9262208B000D5E88B /* FormViewController.swift in Sources */,
 				4F94EBAD26220C6400D5E88B /* SuccessViewController.swift in Sources */,
+				4F2A6CEB26238D2F0060A8FC /* animal.swift in Sources */,
 				4FDB7E8326226F2200A35CE3 /* CatFormViewController.swift in Sources */,
 				4FDB7E7F26226AEA00A35CE3 /* CatWelcomeViewController.swift in Sources */,
 				4F94EBB126221AE000D5E88B /* hello.swift in Sources */,
