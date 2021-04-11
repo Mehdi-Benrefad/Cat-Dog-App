@@ -1,14 +1,15 @@
 //
-//  ViewController.swift
+//  LaunchScreenViewController.swift
 //  Cat-Dog-App
 //
-//  Created by Mehdi Benrefad on 10/04/2021.
+//  Created by Mehdi Benrefad on 11/04/2021.
 //  Copyright © 2021 Mehdi Benrefad. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class LaunchScreenViewController: UIViewController {
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
