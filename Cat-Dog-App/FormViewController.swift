@@ -10,6 +10,7 @@ import UIKit
 
 class FormViewController: UIViewController , UIPickerViewDataSource, UIPickerViewDelegate , UITextFieldDelegate {
     
+    var dog = animal()
     @IBOutlet weak var nameinput: UITextField!
 
     @IBOutlet weak var phoneNumberInput: UITextField!
@@ -60,6 +61,8 @@ class FormViewController: UIViewController , UIPickerViewDataSource, UIPickerVie
     
     @IBAction func Valider() {
         createDog()
+        //validatiobn du segue
+        performSegue(withIdentifier: "segueToSuccess", sender: self)
     }
     
     func createDog(){
@@ -85,10 +88,19 @@ class FormViewController: UIViewController , UIPickerViewDataSource, UIPickerVie
         let race = dogRaces[raceIndex]
         
         //creation de l'onjet
-        var dog=animal(String(name), hasMajority, phone, race, gender)
+        dog=animal(String(name), hasMajority, phone, race, gender)
         
     }
     
-        
+    //passer les donnees a travers le segue
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueToSuccess"{
+            //recuperer le controlleur de destination
+            let successVC = segue.destination as! SuccessViewController
+            successVC.dog = dog
+            
+            //ce segue sera lance dans la methode valider en haut
+        }
+    }
     
 }

@@ -18,6 +18,10 @@ class animal{
     var race = String()
     var gender = String()
     
+    init(){
+        
+    }
+    
     init(_ name: String,_ hasMajority: Bool,_ phone: String,_ race: String,_ gender: String){
         self.name=name
         self.hasMajority=hasMajority

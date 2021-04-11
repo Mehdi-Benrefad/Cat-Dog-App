@@ -10,7 +10,7 @@ import UIKit
 
 
 class SuccessViewController: UIViewController {
-    
+    var dog = animal()
     @IBOutlet weak var dismissoutlet: UIButton!
 
     @IBOutlet weak var backToWwelcomePage: UIButton!

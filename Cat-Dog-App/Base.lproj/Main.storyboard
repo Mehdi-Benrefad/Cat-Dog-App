@@ -368,6 +368,7 @@ votre chat est inscrit avec succes</string>
                         <outlet property="raceduchien" destination="D5L-zY-r8v" id="cqY-tr-5ee"/>
                         <outlet property="sexeInput" destination="uE4-2I-qGf" id="Hbs-fN-m2K"/>
                         <outlet property="valider" destination="mjR-jB-T5n" id="gps-P4-7sL"/>
+                        <segue destination="u8D-GF-p6S" kind="presentation" identifier="segueToSuccess" id="8YR-je-hQd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p4v-Od-vka" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -384,7 +385,7 @@ votre chat est inscrit avec succes</string>
             <objects>
                 <viewController id="u8D-GF-p6S" customClass="SuccessViewController" customModule="Cat_Dog_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZC7-jj-OYp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yjp-0Z-DNY">
