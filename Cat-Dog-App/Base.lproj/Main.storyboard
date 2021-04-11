@@ -271,11 +271,13 @@ votre chat est inscrit avec succes</string>
                                 <rect key="frame" x="109" y="597" width="196" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.5896147719" green="0.73827911999999996" blue="0.95286601780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
                                 <fontDescription key="fontDescription" name="Balham" family="Balham" pointSize="44"/>
                                 <state key="normal" title="Valider">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <outletCollection property="gestureRecognizers" destination="IGG-8N-C8S" appends="YES" id="bxn-OS-CDh"/>
                                     <segue destination="u8D-GF-p6S" kind="presentation" id="Cxc-OT-zQA"/>
                                 </connections>
                             </button>
@@ -331,7 +333,7 @@ votre chat est inscrit avec succes</string>
                                 <rect key="frame" x="253" y="277" width="113" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="phonePad"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Telephone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zS6-2p-pQP">
                                 <rect key="frame" x="252" y="251" width="92" height="20"/>
@@ -349,14 +351,25 @@ votre chat est inscrit avec succes</string>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="OmL-3n-oDX"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="IGG-8N-C8S" appends="YES" id="w4J-up-sol"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="REGISTER" id="WSb-0l-kcg"/>
                     <connections>
+                        <outlet property="nameinput" destination="oAh-7H-wwC" id="VUp-XF-QUG"/>
+                        <outlet property="phoneNumberInput" destination="kOi-bl-5AF" id="O1b-ju-lFX"/>
                         <outlet property="valider" destination="mjR-jB-T5n" id="gps-P4-7sL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p4v-Od-vka" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="IGG-8N-C8S">
+                    <connections>
+                        <action selector="dismissclavier:" destination="zX6-y9-I0U" id="4yN-bJ-QtS"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-6407.2463768115949" y="-286.14130434782612"/>
         </scene>

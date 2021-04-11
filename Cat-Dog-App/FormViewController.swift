@@ -10,8 +10,10 @@ import UIKit
 
 class FormViewController: UIViewController , UIPickerViewDataSource, UIPickerViewDelegate {
     
+    @IBOutlet weak var nameinput: UITextField!
 
-
+    @IBOutlet weak var phoneNumberInput: UITextField!
+    
     @IBOutlet weak var valider: UIButton!
     
     override func viewDidLoad() {
@@ -31,4 +33,12 @@ class FormViewController: UIViewController , UIPickerViewDataSource, UIPickerVie
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return dogRaces[row]
     }
+
+    
+    @IBAction func dismissclavier(_ sender: UITapGestureRecognizer) {
+        
+        nameinput.resignFirstResponder()
+        phoneNumberInput.resignFirstResponder()
+    }
+    
 }
