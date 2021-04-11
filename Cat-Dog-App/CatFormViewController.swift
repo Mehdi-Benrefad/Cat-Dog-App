@@ -1,5 +1,5 @@
 //
-//  CatWelcomeViewController.swift
+//  CatFormViewController.swift
 //  Cat-Dog-App
 //
 //  Created by Mehdi Benrefad on 10/04/2021.
@@ -8,19 +8,17 @@
 
 import UIKit
 
-class CatWelcomeViewController: UIViewController {
-
-    @IBOutlet weak var start: UIButton!
+class CatFormViewController: UIViewController {
+    @IBOutlet weak var valider: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        start.layer.cornerRadius=25.0
-        
+        valider.layer.cornerRadius=25.0
     }
     
-    @IBAction func unwindCatToWelcome(segue:UIStoryboardSegue) { }
+
     /*
     // MARK: - Navigation
 
