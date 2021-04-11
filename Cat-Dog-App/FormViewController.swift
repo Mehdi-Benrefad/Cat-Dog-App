@@ -8,7 +8,9 @@
 
 import UIKit
 
-class FormViewController: UIViewController {
+class FormViewController: UIViewController , UIPickerViewDataSource, UIPickerViewDelegate {
+    
+
 
     @IBOutlet weak var valider: UIButton!
     
@@ -18,15 +20,15 @@ class FormViewController: UIViewController {
         // Do any additional setup after loading the view.
         valider.layer.cornerRadius=25.0    }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
     }
-    */
-
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return dogRaces.count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return dogRaces[row]
+    }
 }
