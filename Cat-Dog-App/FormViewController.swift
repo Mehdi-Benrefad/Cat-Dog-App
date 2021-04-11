@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FormViewController: UIViewController , UIPickerViewDataSource, UIPickerViewDelegate {
+class FormViewController: UIViewController , UIPickerViewDataSource, UIPickerViewDelegate , UITextFieldDelegate {
     
     @IBOutlet weak var nameinput: UITextField!
 
@@ -39,6 +39,11 @@ class FormViewController: UIViewController , UIPickerViewDataSource, UIPickerVie
         
         nameinput.resignFirstResponder()
         phoneNumberInput.resignFirstResponder()
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        nameinput.resignFirstResponder()
+        return true
     }
     
 }
