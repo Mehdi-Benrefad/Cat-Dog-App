@@ -9,7 +9,7 @@
 import UIKit
 
 class CatSuccessViewController: UIViewController {
-
+   var cat=animal()
     @IBOutlet weak var back: UIButton!
     
     @IBOutlet weak var home: UIButton!
