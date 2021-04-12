@@ -1,7 +1,7 @@
 # Cat-Dog-App
 Cat &amp; Dog mobile platform
 
-<h2>laumchscreen:</h2>
+<h2>launchscreen:</h2>
 <img src="Images-App/laumchscreen.PNG"  width="200" height="400">
 
 
