@@ -61,9 +61,30 @@ class FormViewController: UIViewController , UIPickerViewDataSource, UIPickerVie
     
     @IBAction func Valider() {
         createDog()
-        //validatiobn du segue
-        performSegue(withIdentifier: "segueToSuccess", sender: self)
+        //validation ou refus du segue
+        checkDogStatus()
+        
     }
+    
+    
+    //fonction qui decide si on affiche le segue ou une alerte d'erreur
+    private func checkDogStatus() {
+        switch dog.hasMajority {
+        case true:
+            performSegue(withIdentifier: "segueToSuccess", sender: self)
+        case false:
+            presentAlert(with: "Votre age doit etre superieur a 4 ans")
+        }
+    }
+
+    //fonction qui prepare l'alerte a afficher
+    private func presentAlert(with error: String) {
+        let alert = UIAlertController(title: "Erreur", message: error, preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
+    }
+    
     
     func createDog(){
         let name = nameinput.text!
@@ -87,8 +108,9 @@ class FormViewController: UIViewController , UIPickerViewDataSource, UIPickerVie
         let raceIndex = raceduchien.selectedRow(inComponent: 0)
         let race = dogRaces[raceIndex]
         
-        //creation de l'onjet
+        //creation de l'objet
         dog=animal(String(name), hasMajority, phone, race, gender)
+        print(dog.name)
         
     }
     
