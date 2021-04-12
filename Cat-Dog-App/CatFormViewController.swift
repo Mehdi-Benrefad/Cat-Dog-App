@@ -53,8 +53,28 @@ class CatFormViewController: UIViewController , UIPickerViewDataSource, UIPicker
     //valider
     @IBAction func recupererdata(_ sender: Any) {
         createDog()
-        performSegue(withIdentifier: "segueToSuccessCat", sender: self)
+        //validation ou refus du segue
+        checkCatStatus()
+        //performSegue(withIdentifier: "segueToSuccessCat", sender: self)
         
+    }
+    
+    //fonction qui decide si on affiche le segue ou une alerte d'erreur
+    private func checkCatStatus() {
+        switch cat.hasMajority {
+        case true:
+            performSegue(withIdentifier: "segueToSuccessCat", sender: self)
+        case false:
+            presentAlert(with: "Votre age doit etre superieur a 4 ans")
+        }
+    }
+
+    //fonction qui prepare l'alerte a afficher
+    private func presentAlert(with error: String) {
+        let alert = UIAlertController(title: "Erreur", message: error, preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
     }
     
     func createDog(){
