@@ -1,5 +1,6 @@
 # Cat-Dog-App
 Cat &amp; Dog mobile platform
+une application de rencontre pour chien et chat ! Cette application est baptisée Cats & Dogs. Et nous allons nous concentrer sur la phase d'inscription
 
 <h2>launchscreen:</h2>
 <img src="Images-App/laumchscreen.PNG"  width="200" height="400">
