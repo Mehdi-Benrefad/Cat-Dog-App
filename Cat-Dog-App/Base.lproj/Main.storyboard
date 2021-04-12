@@ -409,6 +409,7 @@ votre chat est inscrit avec succes</string>
                                 </state>
                                 <connections>
                                     <action selector="Valider" destination="zX6-y9-I0U" eventType="touchUpInside" id="foD-6d-ZBQ"/>
+                                    <action selector="validerformulaire:" destination="zX6-y9-I0U" eventType="touchUpInside" id="MoV-v0-mKE"/>
                                     <outletCollection property="gestureRecognizers" destination="IGG-8N-C8S" appends="YES" id="bxn-OS-CDh"/>
                                 </connections>
                             </button>

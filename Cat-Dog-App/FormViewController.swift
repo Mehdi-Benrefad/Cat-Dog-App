@@ -58,14 +58,22 @@ class FormViewController: UIViewController , UIPickerViewDataSource, UIPickerVie
         return true
     }
     
-    
-    @IBAction func Valider() {
+    @IBAction func validerformulaire() {
+        print("hello")
         createDog()
         //validation ou refus du segue
         checkDogStatus()
         
     }
-    
+    /*
+    @IBAction func Valider() {
+        
+        createDog()
+        //validation ou refus du segue
+        checkDogStatus()
+        
+    }
+    */
     
     //fonction qui decide si on affiche le segue ou une alerte d'erreur
     private func checkDogStatus() {
