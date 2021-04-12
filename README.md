@@ -7,7 +7,7 @@ Cat &amp; Dog mobile platform
 <img src="Images-App/cathome.PNG"  width="200" height="400">
 
 
-<h2>Inscriotion:</h2>
+<h2>Inscription:</h2>
 <img src="Images-App/dogsregistrationform.PNG"  width="200" height="400">
 
 <img src="Images-App/catregister.PNG"  width="200" height="400">
